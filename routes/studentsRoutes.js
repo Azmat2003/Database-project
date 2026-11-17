@@ -12,16 +12,17 @@ const router = Router();
 // /:id - delete - delete the student
 
 // enter student into db
-router.post('/', createStudent);
+router.
+post('/', createStudent);
 
 // get all students
 router.get('/', getAllStudents);
 
-router.get('/:id', getStudentById);
+router.get('/:studentId', getStudentById);
 
 router.put('/marks/:studentId', updateMarksById);
 
-router.delete('/:id', deleteStudentById);
+router.delete('/:studentId', deleteStudentById);
 
 
 export default router;
